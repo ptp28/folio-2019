@@ -1,0 +1,128 @@
+{
+  "asset": {
+    "generator": "Khronos glTF Blender I/O v0.9.36",
+    "version": "2.0"
+  },
+  "extensionsUsed": [
+    "KHR_draco_mesh_compression"
+  ],
+  "extensionsRequired": [
+    "KHR_draco_mesh_compression"
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0,
+        1
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "pureRed_001.001",
+      "rotation": [
+        0,
+        0,
+        0.7071067690849304,
+        -0.7071067690849304
+      ],
+      "scale": [
+        0.4222716689109802,
+        0.4222716689109802,
+        0.4222716689109802
+      ],
+      "translation": [
+        -0.8063784241676331,
+        0.3230913579463959,
+        0.6418565511703491
+      ]
+    },
+    {
+      "mesh": 0,
+      "name": "pureRed_001.003",
+      "rotation": [
+        0,
+        0,
+        0.7071067690849304,
+        -0.7071067690849304
+      ],
+      "scale": [
+        0.4222716689109802,
+        0.4222716689109802,
+        0.4222716689109802
+      ],
+      "translation": [
+        -0.8063784241676331,
+        -0.33341407775878906,
+        0.6418565511703491
+      ]
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Cube.010",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1
+          },
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 0,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1
+              }
+            }
+          },
+          "indices": 2,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "accessors": [
+    {
+      "componentType": 5126,
+      "count": 4,
+      "max": [
+        0.07237522304058075,
+        0.004477383103221655,
+        0.1351834088563919
+      ],
+      "min": [
+        -0.07711540907621384,
+        0.004477364476770163,
+        0.020711928606033325
+      ],
+      "type": "VEC3"
+    },
+    {
+      "componentType": 5126,
+      "count": 4,
+      "type": "VEC3"
+    },
+    {
+      "componentType": 5123,
+      "count": 6,
+      "type": "SCALAR"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 136,
+      "byteOffset": 0
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "backLightsBrake_data.bin",
+      "byteLength": 136
+    }
+  ]
+}
