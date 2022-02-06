@@ -33,20 +33,20 @@ import introArrowKeyBaseSource from '../models/intro/arrowKey/base.glb'
 import introArrowKeyCollisionSource from '../models/intro/arrowKey/collision.glb'
 
 // TODO changed here
-import introEBaseSource from '../models/intro/e/e.glb'
-import introECollisionSource from '../models/intro/e/collision.glb'
-
-import introYBaseSource from '../models/intro/y/y.glb'
-import introYCollisionSource from '../models/intro/y/collision.glb'
-
-import introSBaseSource from '../models/intro/s/base.glb'
-import introSCollisionSource from '../models/intro/s/collision.glb'
-
-import introRBaseSource from '../models/intro/r/base.glb'
-import introRCollisionSource from '../models/intro/r/collision.glb'
-
-import introCBaseSource from '../models/intro/c/c.glb'
-import introCCollisionSource from '../models/intro/c/collision.glb'
+// import introEBaseSource from '../models/intro/e/e.glb'
+// import introECollisionSource from '../models/intro/e/collision.glb'
+//
+// import introYBaseSource from '../models/intro/y/y.glb'
+// import introYCollisionSource from '../models/intro/y/collision.glb'
+//
+// import introSBaseSource from '../models/intro/s/base.glb'
+// import introSCollisionSource from '../models/intro/s/collision.glb'
+//
+// import introRBaseSource from '../models/intro/r/base.glb'
+// import introRCollisionSource from '../models/intro/r/collision.glb'
+//
+// import introCBaseSource from '../models/intro/c/c.glb'
+// import introCCollisionSource from '../models/intro/c/collision.glb'
 
 import introCreativeBaseSource from '../models/intro/creative/base.glb'
 import introCreativeCollisionSource from '../models/intro/creative/collision.glb'
@@ -102,8 +102,8 @@ import informationStaticBaseSource from '../models/information/static/base.glb'
 import informationStaticCollisionSource from '../models/information/static/collision.glb'
 import informationStaticFloorShadowSource from '../models/information/static/floorShadow.png'
 
-import informationBaguetteBaseSource from '../models/information/baguette/base.glb'
-import informationBaguetteCollisionSource from '../models/information/baguette/collision.glb'
+// import informationBaguetteBaseSource from '../models/information/baguette/base.glb'
+// import informationBaguetteCollisionSource from '../models/information/baguette/collision.glb'
 
 import informationContactTwitterLabelSource from '../models/information/static/contactTwitterLabel.png'
 import informationContactGithubLabelSource from '../models/information/static/contactGithubLabel.png'
@@ -241,20 +241,20 @@ export default class Resources extends EventEmitter
             { name: 'introArrowKeyCollision', source: introArrowKeyCollisionSource },
 
             // TODO changed here
-            { name: 'introEBase', source: introEBaseSource },
-            { name: 'introECollision', source: introECollisionSource },
-
-            { name: 'introYBase', source: introYBaseSource },
-            { name: 'introYCollision', source: introYCollisionSource },
-
-            { name: 'introSBase', source: introSBaseSource },
-            { name: 'introSCollision', source: introSCollisionSource },
-
-            { name: 'introRBase', source: introRBaseSource },
-            { name: 'introRCollision', source: introRCollisionSource },
-
-            { name: 'introCBase', source: introCBaseSource },
-            { name: 'introCCollision', source: introCCollisionSource },
+            // { name: 'introEBase', source: introEBaseSource },
+            // { name: 'introECollision', source: introECollisionSource },
+            //
+            // { name: 'introYBase', source: introYBaseSource },
+            // { name: 'introYCollision', source: introYCollisionSource },
+            //
+            // { name: 'introSBase', source: introSBaseSource },
+            // { name: 'introSCollision', source: introSCollisionSource },
+            //
+            // { name: 'introRBase', source: introRBaseSource },
+            // { name: 'introRCollision', source: introRCollisionSource },
+            //
+            // { name: 'introCBase', source: introCBaseSource },
+            // { name: 'introCCollision', source: introCCollisionSource },
 
             { name: 'introCreativeBase', source: introCreativeBaseSource },
             { name: 'introCreativeCollision', source: introCreativeCollisionSource },
@@ -310,8 +310,8 @@ export default class Resources extends EventEmitter
             { name: 'informationStaticCollision', source: informationStaticCollisionSource },
             { name: 'informationStaticFloorShadow', source: informationStaticFloorShadowSource, type: 'texture' },
 
-            { name: 'informationBaguetteBase', source: informationBaguetteBaseSource },
-            { name: 'informationBaguetteCollision', source: informationBaguetteCollisionSource },
+            // { name: 'informationBaguetteBase', source: informationBaguetteBaseSource },
+            // { name: 'informationBaguetteCollision', source: informationBaguetteCollisionSource },
 
             { name: 'informationContactTwitterLabel', source: informationContactTwitterLabelSource, type: 'texture' },
             { name: 'informationContactGithubLabel', source: informationContactGithubLabelSource, type: 'texture' },

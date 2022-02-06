@@ -116,7 +116,7 @@ export default class ProjectsSection
                 floorTexture: this.resources.items.projectsThreejsJourneyFloorTexture,
                 link:
                 {
-                    href: 'https://threejs-journey.xyz',
+                    href: 'https://eysrc.e-yantra.org',
                     x: - 4.8,
                     y: - 3,
                     halfExtents:
