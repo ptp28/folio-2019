@@ -7,7 +7,8 @@ import EventEmitter from './Utils/EventEmitter.js'
 import matcapBeigeSource from '../models/matcaps/beige.png'
 import matcapBlackSource from '../models/matcaps/black.png'
 import matcapOrangeSource from '../models/matcaps/orange.png'
-import matcapRedSource from '../models/matcaps/red.png'
+// TODO: Changed source here
+import matcapRedSource from '../models/matcaps/red.jpg'
 import matcapWhiteSource from '../models/matcaps/white.png'
 import matcapGreenSource from '../models/matcaps/green.png'
 import matcapBrownSource from '../models/matcaps/brown.png'
@@ -214,14 +215,16 @@ export default class Resources extends EventEmitter
             // Matcaps
             { name: 'matcapBeige', source: matcapBeigeSource, type: 'texture' },
             { name: 'matcapBlack', source: matcapBlackSource, type: 'texture' },
-            { name: 'matcapOrange', source: matcapOrangeSource, type: 'texture' },
+            // TODO: Changed orange to gray
+            { name: 'matcapOrange', source: matcapGraySource, type: 'texture' },
             { name: 'matcapRed', source: matcapRedSource, type: 'texture' },
             { name: 'matcapWhite', source: matcapWhiteSource, type: 'texture' },
-            { name: 'matcapGreen', source: matcapGreenSource, type: 'texture' },
+            { name: 'matcapGreen', source: matcapYellowSource, type: 'texture' },
             { name: 'matcapBrown', source: matcapBrownSource, type: 'texture' },
             { name: 'matcapGray', source: matcapGraySource, type: 'texture' },
             { name: 'matcapEmeraldGreen', source: matcapEmeraldGreenSource, type: 'texture' },
-            { name: 'matcapPurple', source: matcapPurpleSource, type: 'texture' },
+            // TODO: Changed purple to black
+            { name: 'matcapPurple', source: matcapBlackSource, type: 'texture' },
             { name: 'matcapBlue', source: matcapBlueSource, type: 'texture' },
             { name: 'matcapYellow', source: matcapYellowSource, type: 'texture' },
             { name: 'matcapMetal', source: matcapMetalSource, type: 'texture' },
